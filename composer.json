@@ -1,0 +1,32 @@
+{
+    "name":        "nncoupon/novalnet-nncoupon-module",
+    "description": "This display the coupon list in my account page",
+    "type":        "oxideshop-module",
+    "keywords":    [
+        "oxid",
+        "modules",
+        "eShop",
+        "coupon"
+    ],
+    "homepage":    "https://www.novalnet.de",
+    "license":     [
+        "GPL-3.0",
+        "proprietary"
+    ],
+    "authors":     [
+        {
+            "name":  "Krish",
+            "email": "krishnaraj_p@novalnetsolutions.com"
+        }
+    ],
+    "extra":       {
+        "oxideshop": {
+            "target-directory": "oe/nncoupon"
+        }
+    },
+    "autoload":    {
+        "psr-4": {
+            "oe\\nncoupon\\": "../../../source/modules/oe/nncoupon"
+       }
+    }
+}

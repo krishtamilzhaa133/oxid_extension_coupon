@@ -19,7 +19,7 @@ $aModule = [
         'url'         => 'https://www.novalcet.de',
         'email'       => 'krishnraj_p@novalnetsolutions.com',
         'extend'      => [
-            \OxidEsales\Eshop\Application\Controller\AccountController::class => \nncoupon\Controller\AvaliableCouponsController::class,
+            \OxidEsales\Eshop\Application\Controller\AccountController::class => \oe\nncoupon\Controller\AvaliableCouponsController::class,
             
         ],
         'controllers'  => [
